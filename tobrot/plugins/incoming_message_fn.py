@@ -231,7 +231,7 @@ async def g_clonee(client, message, update):
         )
 
 
-async def rename_tg_file(client, message):
+async def rename_tg_file(client, message, update):
     usr_id = message.from_user.id
     if not message.reply_to_message:
         await message.reply("😔 No downloading source provided 🙄", quote=True)
