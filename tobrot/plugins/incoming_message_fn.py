@@ -213,7 +213,7 @@ async def g_yt_playlist(client, message):
 #
 
 
-async def g_clonee(client, message):
+async def g_clonee(client, message, update):
     """ /gclone command """
     g_id = message.from_user.id
     if message.reply_to_message is not None:
