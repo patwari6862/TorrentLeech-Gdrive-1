@@ -210,7 +210,6 @@ async def g_yt_playlist(client, message):
     else:
         await message.reply_text("YouTube playlist link only 🙄", quote=True)
 
-
 #
 
 
